@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+}
+
+.headerSection {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+}
+
+.linkButtons {
+    background-color: blue;
+    color: white;
+    height: 1em;
+    margin: 2px;
+    padding: 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+}
+
+.websiteLogo {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 50px;
+    text-align: center;
+    margin-right: auto;
+}
+
+.userLogo {
+    background-color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    width: 50px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.footerSection {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    padding: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    text-align: center;
+    margin-top: auto;
+}
+
+.mainBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.googleThing {
+    width: 60vw;
+    text-align: center;
+    font-size: 50px;
+}
+
+.searchBar {
+    width: 60vw;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    text-align: left;
+    border-color: black;
+    color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.enterButton {
+    background-color: blue;
+    color: white;
+    width: 15vw;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+    text-align: center;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+}
