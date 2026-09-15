@@ -2,12 +2,17 @@ body {
     margin: 0;
 }
 
+a {
+    color: white;
+}
+
 .headerSection {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     background-color: gray;
     padding: 10px;
+    width: 100vw;
 }
 
 .linkButtons {
@@ -56,9 +61,10 @@ body {
 }
 
 .mainBody {
+    min-height: 60vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
@@ -93,4 +99,27 @@ body {
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
+}
+
+.searchSection {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.backToSearch {
+    background-color: blue;
+    padding: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.informationBox {
+    background-color: gainsboro;
 }
