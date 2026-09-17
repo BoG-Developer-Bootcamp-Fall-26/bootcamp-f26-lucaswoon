@@ -122,4 +122,10 @@ a {
 
 .informationBox {
     background-color: gainsboro;
+    padding: 10px;
+    margin: 20px;
+}
+
+.informationBox h2 {
+    color: darkblue;
 }
